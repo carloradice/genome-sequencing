@@ -1,0 +1,11 @@
+
+Implementare un programma (in Python) che riceve un file SAM o BAM e calcola la 
+copertura di ogni base del genoma.
+
+
+Indipendentemente che siano match o mismatch la copertura è 1.
+Bisogna stare attenti a spliced alignment (quando ho N) che da copertura 0 
+				      a	padded alignment.
+MAPQ bisogna chiedere se quando è 0 si deve considerare o meno la read.
+Delezione considerata 0
+Inserimento non considerato
